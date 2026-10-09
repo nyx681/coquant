@@ -1,0 +1,11 @@
+# Install PyTorch separately using the command in README.
+transformers==4.51.0
+datasets==4.4.1
+numpy==2.2.6
+scipy==1.15.3
+scikit-learn==1.7.2
+accelerate==0.34.2
+sentencepiece==0.2.1
+tokenizers==0.21.4
+safetensors==0.8.0
+tqdm==4.67.1

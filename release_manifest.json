@@ -1,0 +1,938 @@
+[
+  {
+    "path": "source_snapshot.json",
+    "sha256": "c63c5f115dd049b57e593cfc0c368df4836a963f0fffaa5500b4cbdec0df3ef0"
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "e568e8571f169c0fb47523b2cafd317e5a78fdaff997cf3c6cb9240195b8f2af"
+  },
+  {
+    "path": "README.md",
+    "sha256": "09a52b6fd289043c940998c61b4897bf12f852f0cf23d4fe0705f948593ca78b"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "1c59ca9eae7220c9b658e5b87a3ba490f3bac834bf1723b57ad252f2f059e457"
+  },
+  {
+    "path": "gptq_reference/bloom.py",
+    "sha256": "ae35eb083893fe049b234b7406b291be93c7eb6962bbea90d3ef38ce446e41c7"
+  },
+  {
+    "path": "gptq_reference/datautils.py",
+    "sha256": "0b056d50d679704d165d175a2a02d5154bc6884f97217e754f22fa3c8a8e325b"
+  },
+  {
+    "path": "gptq_reference/llama.py",
+    "sha256": "21373578af896da9282c5fad9147a0f43d35bd2d1bad1e24deed22e8bb107097"
+  },
+  {
+    "path": "gptq_reference/llamazch.py",
+    "sha256": "39b5c47779f6e6cecd99105cfc6cd73faa2e99b875c85f6696187f944072689c"
+  },
+  {
+    "path": "gptq_reference/modelutils.py",
+    "sha256": "7968da8845ca958125fbd22f463457f81b3b831c2a553763116ccc5d2b88ecde"
+  },
+  {
+    "path": "gptq_reference/optzch.py",
+    "sha256": "1c3c73862a12fb828a3d7b9ce1863a7a5752383ddf481a98c5caa366acf740c1"
+  },
+  {
+    "path": "gptq_reference/llama\u539f\u59cb.py",
+    "sha256": "f011982054dfa4eeaa0de9aa9af33afca3fc033e209ee02c0c29ff62d638d167"
+  },
+  {
+    "path": "gptq_reference/gptq.py",
+    "sha256": "46ced3e5a8f14c3dcf47637e6d44fc8ed426209e5096aac92f98412e36970dc9"
+  },
+  {
+    "path": "gptq_reference/setup_cuda.py",
+    "sha256": "d99efc535d6a070a4c41eace3e9e3fabab7e6fbbc8f475e2e555486d400c5884"
+  },
+  {
+    "path": "gptq_reference/opt.py",
+    "sha256": "69e099dff82ccc00c5073090ff413443e523aee08e1286841db5b993421d3e70"
+  },
+  {
+    "path": "gptq_reference/llama_like_zch.py",
+    "sha256": "9e02b5940b8cff39de2486bb1984c9119caa110c81bec16e8247b04aa386a631"
+  },
+  {
+    "path": "gptq_reference/test_kernel.py",
+    "sha256": "5279bf82e7dc0f6d2127d959b0051975c1aae270c024401446d9ebe68283cb87"
+  },
+  {
+    "path": "gptq_reference/README.md",
+    "sha256": "c67e5fe08d7cceb1f2bd0b5c2ad4055c3b4fd87e1def15b949844d31c8e51686"
+  },
+  {
+    "path": "gptq_reference/wait_gpu0_run_gptq2.sh",
+    "sha256": "0d435da6ea891fcca48b0d0e58c9d8ae0d459fa9c154243621ff9e5962df4ab3"
+  },
+  {
+    "path": "gptq_reference/wait_gpu0_run_gptq.sh",
+    "sha256": "6bde47e3e3e306e54171a2d8a9b4bc378d3d766ce92f3be22c6d8de99ff28deb"
+  },
+  {
+    "path": "gptq_reference/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "gptq_reference/quant.py",
+    "sha256": "211528568b962b868d20fc58b55200b615f41ebd9f36b4d2d7e4a196a095ea5a"
+  },
+  {
+    "path": "gptq_reference/quant_cuda.cpp",
+    "sha256": "36fe4940a9e925b13f0a4a8376868106d488f3f81104ff6d9efbb08583ca2ed9"
+  },
+  {
+    "path": "gptq_reference/quant_cuda_kernel.cu",
+    "sha256": "095c8bb08af5cd01a284507d31363ce2a46d646f1f95f391065e4a3658defb22"
+  },
+  {
+    "path": "reproduction/readme.md",
+    "sha256": "cf2459a9122fb412ff51a3a146b6712a0ec2534fcf74600e4e19ca3a3ad7365e"
+  },
+  {
+    "path": "gptq/bloom.py",
+    "sha256": "ae35eb083893fe049b234b7406b291be93c7eb6962bbea90d3ef38ce446e41c7"
+  },
+  {
+    "path": "gptq/datautils.py",
+    "sha256": "0b056d50d679704d165d175a2a02d5154bc6884f97217e754f22fa3c8a8e325b"
+  },
+  {
+    "path": "gptq/llama.py",
+    "sha256": "21373578af896da9282c5fad9147a0f43d35bd2d1bad1e24deed22e8bb107097"
+  },
+  {
+    "path": "gptq/llamazch.py",
+    "sha256": "187afe815fbad57addd529770a38b315d5dfbd2daa2df113f21ca46fd43437a9"
+  },
+  {
+    "path": "gptq/modelutils.py",
+    "sha256": "7968da8845ca958125fbd22f463457f81b3b831c2a553763116ccc5d2b88ecde"
+  },
+  {
+    "path": "gptq/optzch.py",
+    "sha256": "1c3c73862a12fb828a3d7b9ce1863a7a5752383ddf481a98c5caa366acf740c1"
+  },
+  {
+    "path": "gptq/llama\u539f\u59cb.py",
+    "sha256": "f011982054dfa4eeaa0de9aa9af33afca3fc033e209ee02c0c29ff62d638d167"
+  },
+  {
+    "path": "gptq/gptq.py",
+    "sha256": "39bc3096bdf4c99607f380ccde4d029ec89e7fa78b407c7be9b30417c2377c69"
+  },
+  {
+    "path": "gptq/setup_cuda.py",
+    "sha256": "d99efc535d6a070a4c41eace3e9e3fabab7e6fbbc8f475e2e555486d400c5884"
+  },
+  {
+    "path": "gptq/opt.py",
+    "sha256": "69e099dff82ccc00c5073090ff413443e523aee08e1286841db5b993421d3e70"
+  },
+  {
+    "path": "gptq/llama_like_zch.py",
+    "sha256": "9e02b5940b8cff39de2486bb1984c9119caa110c81bec16e8247b04aa386a631"
+  },
+  {
+    "path": "gptq/test_kernel.py",
+    "sha256": "5279bf82e7dc0f6d2127d959b0051975c1aae270c024401446d9ebe68283cb87"
+  },
+  {
+    "path": "gptq/README.md",
+    "sha256": "c67e5fe08d7cceb1f2bd0b5c2ad4055c3b4fd87e1def15b949844d31c8e51686"
+  },
+  {
+    "path": "gptq/wait_gpu0_run_gptq2.sh",
+    "sha256": "0d435da6ea891fcca48b0d0e58c9d8ae0d459fa9c154243621ff9e5962df4ab3"
+  },
+  {
+    "path": "gptq/wait_gpu0_run_gptq.sh",
+    "sha256": "6bde47e3e3e306e54171a2d8a9b4bc378d3d766ce92f3be22c6d8de99ff28deb"
+  },
+  {
+    "path": "gptq/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "gptq/quant.py",
+    "sha256": "211528568b962b868d20fc58b55200b615f41ebd9f36b4d2d7e4a196a095ea5a"
+  },
+  {
+    "path": "gptq/quant_cuda.cpp",
+    "sha256": "36fe4940a9e925b13f0a4a8376868106d488f3f81104ff6d9efbb08583ca2ed9"
+  },
+  {
+    "path": "gptq/quant_cuda_kernel.cu",
+    "sha256": "095c8bb08af5cd01a284507d31363ce2a46d646f1f95f391065e4a3658defb22"
+  },
+  {
+    "path": "SqueezeLLM/run_llama1_w4_dense_awq_gptq_confidence.sh",
+    "sha256": "74b26262b84154d47a94980c48f1b30491f31c85677029a711ff58007a88b39e"
+  },
+  {
+    "path": "SqueezeLLM/run_qwen3_mistral_awq_delta_vs_fisher_ds.sh",
+    "sha256": "5646d3c8f3f2b4d7228c9bae397c389affc87d57ffe4b232dc43daeed49cca50"
+  },
+  {
+    "path": "SqueezeLLM/llama.py",
+    "sha256": "ff0374a256b2c8ea168de723536fc4b761917bb848a0a4d074f8bd82681a764b"
+  },
+  {
+    "path": "SqueezeLLM/run_delta_vs_fisher_ds.sh",
+    "sha256": "d6417a4f06f6960381062238a28e6733dac4c71393e472e3341996eb4e587c0d"
+  },
+  {
+    "path": "SqueezeLLM/run_opt67b_delta_vs_fisher_ds.sh",
+    "sha256": "fe4ec9537a6a0625bf918b83239373bc798c2d449ac51f75a0e0cc7949b90437"
+  },
+  {
+    "path": "SqueezeLLM/run_llama1_w4_dense_gptq_and_dual_delta.sh",
+    "sha256": "cfaed1682b392b0ad796ee56415f466106fc446512d0340e78c4936538ddebcc"
+  },
+  {
+    "path": "SqueezeLLM/README.md",
+    "sha256": "04ecc6ceef1b1a366b24be93d66abb40e96152d840be46b8a055421b63366cdd"
+  },
+  {
+    "path": "SqueezeLLM/run_other_w4_dense_awq_gptq_confidence.sh",
+    "sha256": "83b68f13baeebf1459acb2281a2ddc7729c83c42e941eead98e02fdf52b90a00"
+  },
+  {
+    "path": "SqueezeLLM/pyproject.toml",
+    "sha256": "52ba420b7851e4bde6941111b222e0c84d9aea14047483a4a081c98077e12552"
+  },
+  {
+    "path": "SqueezeLLM/run_awq_delta_ppl.sh",
+    "sha256": "650fb09bab4bac32230bfa72975ebe643ceff5687405d9692b7d0b8f0b937e43"
+  },
+  {
+    "path": "SqueezeLLM/LICENSE",
+    "sha256": "19c89b769031ae7a27997f264ea003cce6c2e8d8351411fa00ef7cafe52f814e"
+  },
+  {
+    "path": "SqueezeLLM/run_auto_awq_gptq_delta.sh",
+    "sha256": "33b758d50ad7a17d85d4e5152418f5e59b265886e774180d6573905b47fba605"
+  },
+  {
+    "path": "SqueezeLLM/run_llama2_w4_dense_joint_delta.sh",
+    "sha256": "e5ba017cc38e0964f2ddfcbf48306bbe369f15d8aa8bc2dbf265541e8157b0ff"
+  },
+  {
+    "path": "SqueezeLLM/run_llama1_gptq_delta_vs_fisher_ds.sh",
+    "sha256": "9cb3acb71dac190f094c0383d4bfc7ae1e7808d8d603e50efa0d3098071efa69"
+  },
+  {
+    "path": "SqueezeLLM/run_llama2_w4_g128_center_fusion.sh",
+    "sha256": "e8ce3f78da913c81ee4068f616e6af95b78b9af1975709cc5cbbaa953e4aa26b"
+  },
+  {
+    "path": "SqueezeLLM/run_llama1_w4_g128_center_fusion.sh",
+    "sha256": "7fbf57d574834a53fc7c40facde6e7ca0bf14da4207c1ac1195a26cae520522c"
+  },
+  {
+    "path": "licenses/AWQ_LICENSE.txt",
+    "sha256": "2af485d269071b583c62c20250a63349f8313312cc9df0bd9007ca39c6d57bd9"
+  },
+  {
+    "path": "licenses/GPTQ_LICENSE.txt",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "licenses/SQUEEZELLM_LICENSE.txt",
+    "sha256": "19c89b769031ae7a27997f264ea003cce6c2e8d8351411fa00ef7cafe52f814e"
+  },
+  {
+    "path": "SqueezeLLM/tests/test_group_center_selection.py",
+    "sha256": "2a5017b28fff93813585424a64b0fb934dd02cb04f5604cdd324b19ca4ff7827"
+  },
+  {
+    "path": "SqueezeLLM/tests/test_group_center_pipeline.py",
+    "sha256": "0e60819a3a7aadf19dfd401b0357337d9697a8ebba4bbee2288d808689a87ccb"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_rtn_pairs_B3_fusion.py",
+    "sha256": "b36bd3b8e8e71bdd323b5e105012f29a0f0296064d7f2286cac59f7959802969"
+  },
+  {
+    "path": "SqueezeLLM/quantization/DELTA_WITHOUT_AWQ_SCALE.md",
+    "sha256": "a5be51f97a8a1cb616e2ab19660f704c3bdcef85a944147b20726816f30d057d"
+  },
+  {
+    "path": "SqueezeLLM/quantization/queue_w3_after_w4.py",
+    "sha256": "4fa72e9c918b9154656cdc42bcb1e8fea3e33799a0c578b6c3e198f5bbc2ac72"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_B_fusion_c4.py",
+    "sha256": "fda1b84b9f5d15e809b0f8531aeb418bd884fb2a8b7ee445d94c079a7becb53d"
+  },
+  {
+    "path": "SqueezeLLM/quantization/NO_SCALE_FUSION_SEQUENCE.md",
+    "sha256": "4897459806cdedc57db04c9ef9029e4ccfa6376338d0e62220f001a9664ec759"
+  },
+  {
+    "path": "SqueezeLLM/quantization/qwen_hierarchical_fisher.py",
+    "sha256": "45b7bae5a68a9aecf80b6401e0b99f967a8fed539f4c45e211be11be1a4161db"
+  },
+  {
+    "path": "SqueezeLLM/quantization/qwen_weight_designs.py",
+    "sha256": "3e769897953ddaf40c2bcd06c280c0d922d066f48f01030ef9ded9b9313a5474"
+  },
+  {
+    "path": "SqueezeLLM/quantization/source_scale_worst_out.py",
+    "sha256": "0db5bff55dbca2abb1614635d6a32c0b25e36788e0da5bf4dadbf08049924582"
+  },
+  {
+    "path": "SqueezeLLM/quantization/generate_outlier_config.py",
+    "sha256": "e493651351f83d3ef3d69c1fcca438c1323c381c7fcb3a68b774eafce374a366"
+  },
+  {
+    "path": "SqueezeLLM/quantization/opt_rtn_gptq_fusion.py",
+    "sha256": "3579c4b7dca309d48c5c1db2f718346c935faeb57c0a0616366d9eb9e64e8cb6"
+  },
+  {
+    "path": "SqueezeLLM/quantization/DELTA_ONLY_ABLATION_SEQUENCE.md",
+    "sha256": "cf578797711fe49889b470c18d69ff462da12e8e09d035722f8514a2a5e15018"
+  },
+  {
+    "path": "SqueezeLLM/quantization/group_center_selection.py",
+    "sha256": "832fd8a7e0863c176665b1c13d3a29e52a2ba95b66575a2423f54bbd6ac07dfa"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_no_scale_fusion_sequence.py",
+    "sha256": "b4b9d883a8161b7dce81e808542a2cc188bb0176a9338f0ea3cea0a58a290f15"
+  },
+  {
+    "path": "SqueezeLLM/quantization/refine_opt_group_centers.py",
+    "sha256": "59871ba251bb55b61c1b557d9ecf4b1e339b23e434edea27688892a3f69ebbd0"
+  },
+  {
+    "path": "SqueezeLLM/quantization/qwen_hierarchical_delta.py",
+    "sha256": "180f79a581cfe97761d2af12b5d6e6ed5d23c5338b82997a290ed58a92b51205"
+  },
+  {
+    "path": "SqueezeLLM/quantization/b3_fusion_kernel.py",
+    "sha256": "37a53e73616aa60bbe1555589f15ac8c0ec3e6f23a6734ba4c56ae7bab1a0cb2"
+  },
+  {
+    "path": "SqueezeLLM/quantization/b3_hierarchical_kernel.py",
+    "sha256": "847c1c07538f6541b234a1880e6a8dde3fa45953e203e6962cf1e967521392d1"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_self_delta_g128.py",
+    "sha256": "128ff17d053da1de94387a0ae42cfe099d218d38760b46db74449b311228c688"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_B_fp16_codebooks_generic.py",
+    "sha256": "0aa21c2e84b24c11de2aa6475df95901f574c918fa70650ef58dcebbc2df30c3"
+  },
+  {
+    "path": "SqueezeLLM/quantization/ACTIVATION_WEIGHTED_NONUNIFORM.md",
+    "sha256": "ac1e420792ba1d8da83ef7829bb98695775a463bdb5d508af60df5de5722061b"
+  },
+  {
+    "path": "SqueezeLLM/quantization/collect_fisher_cpu_accum_B.py",
+    "sha256": "76c7168580a974a88d7c0fd9be5871ac141ffd1a3b5e811950f22f92f1528e6f"
+  },
+  {
+    "path": "SqueezeLLM/quantization/BLACKBOX_CENTER_FUSION.md",
+    "sha256": "54035885838f922e2695dcf124b71cc47296685c9aeeb153ac03caf634fc3204"
+  },
+  {
+    "path": "SqueezeLLM/quantization/chunk_gptq_params.py",
+    "sha256": "2bdbcfb47e93f0e95fecde648a62c4a86edf60390ca7efef60d6f081d9dfb125"
+  },
+  {
+    "path": "SqueezeLLM/quantization/EXTENDED_FIVE_MODEL_DELTA_ONLY.md",
+    "sha256": "948217f293f7c06d1545041876dcf895ead09d31a220608df654b7ede8d4f584"
+  },
+  {
+    "path": "SqueezeLLM/quantization/RTN_THREE_MODEL_COMPARISON.md",
+    "sha256": "82e16a4bc8fbcfe5ab4a57109e94affbbd2c412d57bb1e63f4ff5b33fac4d622"
+  },
+  {
+    "path": "SqueezeLLM/quantization/pack.py",
+    "sha256": "32d80d31cc040d0cfb091f890d7cc477d3cb8ff9891a7df582a832d8b7a68fae"
+  },
+  {
+    "path": "SqueezeLLM/quantization/CROSS_MODEL_DELTA_ONLY.md",
+    "sha256": "5becff112e49efdfac2caff45f4e2e69c22515219ac99ba828c2fec7e92fb5e1"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_cross_model_delta_only_fusions.py",
+    "sha256": "a5e4dc8df8cc34d78a56988a38446eaa0f0f2c490ab807695884f0e9dff67fa7"
+  },
+  {
+    "path": "SqueezeLLM/quantization/prioritize_qwen_fine.py",
+    "sha256": "e6d6cc3fd891b23880b45bc6e233becd2b82323c4900084985f9d7773e6d8292"
+  },
+  {
+    "path": "SqueezeLLM/quantization/CROSS_MODEL_DELTA_ABLATIONS.md",
+    "sha256": "fee29c76cd8de4385381f8698706f7e6d247508725d6d15048d51ae6cda79435"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_blackbox_center_fusion.py",
+    "sha256": "8893e0cdbdd88ce53ae977b839f5f8076409cd62367008773731e7d51658d861"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_extended_delta_only_w3.py",
+    "sha256": "ca04f585303c9faae3ba267a07afb220d967d39194cad047a572210257416936"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_cross_model_dual_nonuniform_g128.py",
+    "sha256": "ecbb70815aacefc3342a021fea4a614f6d576e5b03c17047f3675d41b8ad45d1"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_group_center_three.py",
+    "sha256": "ca7b25268238e765e283b3396535124cdad87ce9fe14b144fb5837ad6c5fce6d"
+  },
+  {
+    "path": "SqueezeLLM/quantization/prepare_extended_delta_sources_w3.py",
+    "sha256": "7e7d86625565e844b7a8d45e4485a561b540b4ad42eed71aefe2cb3c3261f29c"
+  },
+  {
+    "path": "SqueezeLLM/quantization/queue_qwen_self_delta_g2048.py",
+    "sha256": "4028344d24f2fbd5d84540263ecdcf2bb6e8b38a0d983c6c6c80a2f1641955fe"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_extended_four_ppl_suite_w3.py",
+    "sha256": "b34eb3ad2b84aba17197ba3f008e84a6d0d46a51261c23c7ff2c1725b594f463"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_fine_delta.py",
+    "sha256": "ab28a5b88d5174f4976cc8137c9b6eabe4cb0a8348627817083f05b1dc1460d6"
+  },
+  {
+    "path": "SqueezeLLM/quantization/qwen_soft_delta_designs.py",
+    "sha256": "46a3d5014e5c8e2d1a1a6db1c2f62cdfb72af8ce19fe9ea743b55a5fbc021c1a"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_extended_delta_only.py",
+    "sha256": "a06327fecae8d53a60cb8aa75988a3249e5d8fb0253301f67718daa306ef9ee1"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_cross_model_delta_only_suite.py",
+    "sha256": "6d81cbdd5703f9fe19d3cd604b03e178f7bfff6f5e5995a9808b7ce647f3e183"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_weight_design.py",
+    "sha256": "00b3fb04b3e5049ee29b707434563ffc2b2e17d118b8c604fc5b0fa6e8c539e3"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_lut_calibration.py",
+    "sha256": "c28b645c3cbd24e210da9782bd59b0c1f3ef2f17177fe771371aaabd80f515fc"
+  },
+  {
+    "path": "SqueezeLLM/quantization/qwen_self_delta_g128.py",
+    "sha256": "05960a54f0088b20ef1fb793a4c322ebc7165bd65a189d5334e2f5fa90692b88"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_hierarchical_fisher.py",
+    "sha256": "e0c7abffb2758c7838b22037b67ba6d234be1d21c8bc18d06429c4b9a949f490"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_b3_fusion.py",
+    "sha256": "3bdd1a50e6334a4c0e35b77bca9d6e044b2fa5dc4508b64f600fb44a6d2fd0e3"
+  },
+  {
+    "path": "SqueezeLLM/quantization/resume_qwen_self_delta_g2048.py",
+    "sha256": "2cff3f21a07792278de6031cbae25fc31f8deb14192bf1a34e2230b7db25fb3b"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_soft_delta.py",
+    "sha256": "487e041494c01c3a87fc90b8d6bf6465450f1a0fc717a801689d16578fefd6b9"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_cross_model_four_ppl_suite.py",
+    "sha256": "bccdf51e7e91e7ef39ebf7f4620bceb06b5af61fd37fb6974c56701acd5ae155"
+  },
+  {
+    "path": "SqueezeLLM/quantization/GROUP_CENTER_FUSION.md",
+    "sha256": "1442c9784533761c6132cb0fed6bb6388d77a0328afe61ce40cec858f9ba5f5a"
+  },
+  {
+    "path": "SqueezeLLM/quantization/collect_qwen_fisher_B.py",
+    "sha256": "4f9954bf1ee153667b83c30dd9c6add40a585fd948479f6d5e8a0e0f69d7fc93"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_dual_nonuniform_g128.py",
+    "sha256": "a93d3fb2b250b7e15dabe5d6c13bd54103dd669377051dc09256b608c4d99cfd"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_qwen_mistral_saved_delta_c4.py",
+    "sha256": "9d78f034b28c929df982404c915fd1343c43f32e5dacabdc8a46ded1672ac72a"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_self_delta_g2048.py",
+    "sha256": "927f5bdb2c3497117e35403722d4aa091b2780b3ec53fdc65ce4ee0650386926"
+  },
+  {
+    "path": "SqueezeLLM/quantization/fine_delta_importance.py",
+    "sha256": "9de51f5dc9e553f7e2f2873a2cdd1bb5cb983941856d499df85fd07b6351333c"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_cross_model_delta_ablation_suite.py",
+    "sha256": "6d39de037d4f8efb95ff1cc22a90bddef1e37c1d0b6df1c7ef1e2f4e34ad44e8"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_opt_B_fp16_codebooks.py",
+    "sha256": "90635aa324f240e906a83edd65535f4f737d6bdb936629df374e014c53519e17"
+  },
+  {
+    "path": "SqueezeLLM/quantization/export_delta_channel_coefficients.py",
+    "sha256": "b2905890a9c5c2c3c4762a3a107177068ec40c87a0dfccca2b23dfe69d978737"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_no_scale_pair.py",
+    "sha256": "c2b91ef095e7f6ae9a11dd801f6a00f38a0d297aa3e63dd37a6bda0d06264533"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_delta_without_awq_scale.py",
+    "sha256": "a6fd521e96e2a938c8d65a7a05e5b0d5c047ac3e7aabb65620bc910acaa91e1f"
+  },
+  {
+    "path": "SqueezeLLM/quantization/README.md",
+    "sha256": "7d7b42c693475ef749c593a3313cb34ad7f7830f2a0e57a77d9d4c7d2f2d3626"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_llama1_activation_fusion.py",
+    "sha256": "bfa9e28a595c3eeb2d958102a9b5833f42f484c65208646aed729b69ad50cb21"
+  },
+  {
+    "path": "SqueezeLLM/quantization/ACTIVATION_FUSION_RESEARCH.md",
+    "sha256": "2bd0fd0d6b55c3286faeba024d84347b681d1ee0cbd27ccccf6766110ab1772c"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_delta_without_scale_or_offset.py",
+    "sha256": "7d489f8add0c3e6824d4fe993825db0aeecbbe3149e9c4c23b59d5bebddb15f2"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_hierarchical_delta.py",
+    "sha256": "c82339a0c6bc410b9a9f25e97ff8514c94ebb7ad9d582974d2c3efe1cfdcb88f"
+  },
+  {
+    "path": "SqueezeLLM/quantization/nuq.py",
+    "sha256": "a1d65661d761ed05f68084bb199cab3f8ad45117777d637ac90342a02c72a7b4"
+  },
+  {
+    "path": "SqueezeLLM/quantization/prioritize_qwen_row.py",
+    "sha256": "4c881d7fb54135da97d2f3aefef7e3b3102e3bf81521ce1b2d5cb6dd9e582c7b"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_b3_fp16_wiki.py",
+    "sha256": "bfff314f8d76a6536ff7c37d354dbea344f3dda763ffb3d3318a6aa2a9941d5f"
+  },
+  {
+    "path": "SqueezeLLM/quantization/row_delta_helpers.py",
+    "sha256": "cc321c3df00bef266924ba74479550698ad8ddd9eafc0c06c82b1b805566e26a"
+  },
+  {
+    "path": "SqueezeLLM/quantization/override_lut_module.py",
+    "sha256": "b920b5ee52db2f6476706b9f677d838e5f0f625eb2d2720167b349931ba065c5"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_rtn_gptq_nonuniform_g128.py",
+    "sha256": "ca622ac16c1f62b1123bdf37091302b669528b9fcf766244cc10e278caedb432"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_b3_delta.py",
+    "sha256": "9dd1622f6d7a158175e74383dc065dc5d99973a42fa4c5b36ed64fa73a9b5932"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_delta_offset_ablation_sequence.py",
+    "sha256": "faebc750e5b4f0b3065686fc9500f47d43e05c6a18232e85caa38dcf05244204"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_fine_delta_suite.py",
+    "sha256": "65628ae9679feb8d6c7bebb1b5f8fdaf2ac0f148590d7a954bfb41cf97079ef3"
+  },
+  {
+    "path": "SqueezeLLM/quantization/build_llama2_static_gptq.py",
+    "sha256": "befa62d7bb30beacaf164c28a0ecb54bbaf71ba988cfb9cec037cf36a6a37feb"
+  },
+  {
+    "path": "SqueezeLLM/quantization/prepare_extended_delta_sources.py",
+    "sha256": "5157ce6550551f97b7064135932341cf0898ac84f94a1ac80e069816f9e0ac42"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_llama2_delta_fusion_followup.py",
+    "sha256": "5e9054c2c54d7ed1736efd8cb37f604c0a54b26550bb158303e222df686b9e09"
+  },
+  {
+    "path": "SqueezeLLM/quantization/pilot_activation_center_ridge.py",
+    "sha256": "a760785eee7a8bcb1124d4a0484c549f35c9e454921bb41992e8f5c9c36a6273"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_blackbox_activation_fusion.py",
+    "sha256": "7ef32e084916057b60550c550fb73511e3d1d76403325332050f1bb035308e1d"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_b3_fp16_c4.py",
+    "sha256": "3f3422e1b86e2b4fd0764e82b25515a8373c439e10e72a5b830e5c9520c9104e"
+  },
+  {
+    "path": "SqueezeLLM/quantization/validate_w3_gptq.py",
+    "sha256": "d442c2fb0a49e5b0aec7bfb00d1702c0116ad398c78bf567a9876a12ec1173db"
+  },
+  {
+    "path": "SqueezeLLM/quantization/chunk_models.py",
+    "sha256": "943667e3e35d8928b55dae66559911c8c8c4be3d02110d0653d49e50f9544df9"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_source_scale_worst_out_tail.py",
+    "sha256": "23ddca8bf25cc9fa32ef2130d9c93ff567c37a2134e8f8450e84fd041ad7b511"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_rtn_delta_comparison.py",
+    "sha256": "3a43b509df0085994aa0349b090beb48607548d29f74617bfafd2114667d89f9"
+  },
+  {
+    "path": "SqueezeLLM/quantization/prepare_B_c4_cache.py",
+    "sha256": "78c5bea0aaa561d037ca068a3c5dacf8adb7c11e1985fdd3dc87bf65c6516991"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_saved_delta_c4.py",
+    "sha256": "72fe265cb64cfe27e3f479c919cb8218408c6e361fa01a9dcb33bdfdf84e7e98"
+  },
+  {
+    "path": "SqueezeLLM/quantization/b3_tail_kernel.py",
+    "sha256": "aba39c26a30cca2e2c3cf4bacff58687eb5aeab38c62614e5c15171172293775"
+  },
+  {
+    "path": "SqueezeLLM/quantization/evaluate_completed_B_fusion.py",
+    "sha256": "e06d8896272aebebf8a9be847baf3061aa97289edf4f99da315111f8f2d47457"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_rtn_B4_delta.py",
+    "sha256": "cbd0a45787a50ab2ff079fcda47d452b5b925343daf4d3931c57389980391fc9"
+  },
+  {
+    "path": "SqueezeLLM/quantization/build_opt_static_gptq.py",
+    "sha256": "edbc17e28345b0486d3491e01c89d956e59f43f2e82a43af3df6683d45082e34"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_row_delta.py",
+    "sha256": "4fdb6b0d074dad1b1afecb6ae19c4e7453e86d093863cf807ebd77f6cd8b97f0"
+  },
+  {
+    "path": "SqueezeLLM/quantization/w3_delta_helpers.py",
+    "sha256": "64f44d4cbc07e3d083934757069bab93195f5e39a7e917f83fdc5690897fabc8"
+  },
+  {
+    "path": "SqueezeLLM/quantization/queue_qwen_weight_search.py",
+    "sha256": "5efb4e69bfc2caef5c770623e73d7db5604f4cd45e81c897eb21afff3d2b646d"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_hierarchical_fisher_tail.py",
+    "sha256": "69aa78e0e6f4827b301e8853f835ceb47b51ded061dad1dbe9711075a104301b"
+  },
+  {
+    "path": "SqueezeLLM/quantization/qwen_self_delta_g2048.py",
+    "sha256": "16831a974c2cad9de495b74cb860888683867572961de175e9c45e489d4f04c0"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_extended_delta_fusions.py",
+    "sha256": "c4eb6443bf7851c5b95ac40bcba73ac23b5484131090f1b2ec2e768288f3f2b8"
+  },
+  {
+    "path": "SqueezeLLM/quantization/hierarchical_fisher_tail.py",
+    "sha256": "261ee9e5cbeb75e688eab4fca441e43f4c8d2b218bc6cf85cecc9f6f5f2544dc"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_B_fp16_c4_generic.py",
+    "sha256": "1bb291e6eb32c1b5745446c5b3987416aee212dd4debb22baeb62be951811473"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_hierarchical_activation_multiplier.py",
+    "sha256": "cd7dada7f6c899427d54da27acfeaa227c29ac0a2e404d084e2b99493dec4a25"
+  },
+  {
+    "path": "SqueezeLLM/quantization/compose_lut_modules.py",
+    "sha256": "9e02c8ab6f707918f428ca526f4715551a95f2d78b33a74f7762e3e175e8d461"
+  },
+  {
+    "path": "SqueezeLLM/quantization/eval_opt_B_fp16_codebooks_from_source.py",
+    "sha256": "fa3308dd36f4e90a9523f9e60737af07091f37cb682ed60ae245f70f911fdcb5"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_extended_four_ppl_suite.py",
+    "sha256": "ca897d2862e0b20ae2bf99e340d8dc5dd03e0ee110bebca85df2fe392b9853a5"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_source_scale_worst_out_centers_ready.py",
+    "sha256": "7b9221dd324ea9897bddb16f09d20ee44a08258951a72bd0d9f09f2c038db84d"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_extended_delta_fusions_w3.py",
+    "sha256": "1f44698bffa71377e2324f16b79da693dae79a4c30dccf13c961f5996d06d5f5"
+  },
+  {
+    "path": "SqueezeLLM/quantization/LLAMA1_DELTA_ONLY_FUSIONS.md",
+    "sha256": "28ec1f98bb66e738dc5cb3d6c7f403a4c074fa6eb90081ef0f89a0bb73a2ba2f"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_qwen_row_delta_suite.py",
+    "sha256": "bcd3ae024f9a16f9224ae22e934259149183bd68e924d52598b38caf1c390612"
+  },
+  {
+    "path": "SqueezeLLM/quantization/resume_followup_parallel_qwen.py",
+    "sha256": "91721988d3609b1de47ef7a990651d41d4251f10db53385ce0cb090b7d880a18"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_source_scale_worst_out.py",
+    "sha256": "d688798d7a8880740b4b9270ac2af7695c4382b6cf4cef7b35798faca1c8fb60"
+  },
+  {
+    "path": "SqueezeLLM/quantization/pilot_activation_index_fusion.py",
+    "sha256": "a332bcfa605d9e699773783caa4ffaff17041ca2dba49066adef9b9a1f132434"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_rtn_B3_delta.py",
+    "sha256": "156f9cecc4400843d2cdfe54f2a03df4aabf662ac2631c2be4ece52a01b769ec"
+  },
+  {
+    "path": "SqueezeLLM/quantization/source_scale_worst_out_tail.py",
+    "sha256": "121b4ccb71d6ccfe78213f629a3b453720b4ca14511193e2a9aa0b6813a81cab"
+  },
+  {
+    "path": "SqueezeLLM/quantization/pilot_group_routing.py",
+    "sha256": "73d08a299c927d348a53067f93ea62fdb8db9cd06fe67733b64a812fc4c83175"
+  },
+  {
+    "path": "SqueezeLLM/quantization/CROSS_MODEL_DELTA_ONLY_FUSIONS.md",
+    "sha256": "f1f2e1b8080b52fca57b532532e209e4bfbd480fe6449ef5323d1f0f76ae8d27"
+  },
+  {
+    "path": "SqueezeLLM/quantization/pilot_activation_center_fusion.py",
+    "sha256": "b84c5ca5c78559b79c5ab79c960ac8b0ef7096d1d299c3953966bb55100cdab2"
+  },
+  {
+    "path": "SqueezeLLM/quantization/fuse_group_centers.py",
+    "sha256": "de064c1cbcbcb52ec59ec657338dbbcd3a44526e3333a6d2e71453991ef6fdfb"
+  },
+  {
+    "path": "SqueezeLLM/quantization/queue_qwen_soft_delta.py",
+    "sha256": "e7254b0005e40abc67beab3add071109fc112f04152ae467c5531662ab36d0f8"
+  },
+  {
+    "path": "SqueezeLLM/quantization/pilot_nonuniform_block_residual.py",
+    "sha256": "d19ab189d6276b6b94c04ab59803a95ed6d97658fda6d06ab329951436e7b3e9"
+  },
+  {
+    "path": "SqueezeLLM/quantization/run_rtn_pairs_B4_fusion.py",
+    "sha256": "f79abe4cd29060bb12bc6bc76d6196dddaa3bea6352fae90021464041c459576"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/datautils.py",
+    "sha256": "6c69181fe473f080bc0c6cfdffe051d72417db76b1956b5260bba2e44fc82b17"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/fake_quant.py",
+    "sha256": "63bf3fc2d34ea1bb06031ad4fd9ecee8081d35dab04eadb60ab15b5d70e97db3"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/modelutils.py",
+    "sha256": "16deb6274d6ace10f60a670e804e32bc9b3999d20de8d52453ae578e685c6a83"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/setup_cuda.py",
+    "sha256": "4b60370320d2ddd4b2fd228d61156a61e2d77be177b36d7e4d28bf2f711a7770"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/model_parse.py",
+    "sha256": "0873ecb7b3f4e09d836a83f04a1a21d1a3a837da2e6c33575cc679e3e3eaf193"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/outliers.py",
+    "sha256": "ff0e0d43309db4b50a5f318d313008b0ae7470a31c45442062174241f6d62b11"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/quant.py",
+    "sha256": "50ce28f6ad21a8c0542cb0f44c211e11417eff2923e6bfb8066417c108cb852b"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/quant_cuda.cpp",
+    "sha256": "d7ce505aabb5b32d1e498680bd4f08296976a27fe6e375396950664304138d3e"
+  },
+  {
+    "path": "SqueezeLLM/squeezellm/quant_cuda_kernel.cu",
+    "sha256": "b077d9a0758f25499447a228fc480f8dc9938ad1eb66e55362cd472a07855d44"
+  },
+  {
+    "path": "awq_reference/awq/entry.py",
+    "sha256": "141005bf4474bce98b44feec855382a7dc4e90ad5164a46a19e0d83cdb403526"
+  },
+  {
+    "path": "awq_reference/awq/utils/calib_data.py",
+    "sha256": "43b6e1484dfac0a857a4f1371cf599f50211e76e98e5397b73104eb3e7bc3f61"
+  },
+  {
+    "path": "awq_reference/awq/utils/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "awq_reference/awq/utils/parallel.py",
+    "sha256": "06311c521ca697e4c087dab347c64f2434d09e38762cd73040092bd705c44d6e"
+  },
+  {
+    "path": "awq_reference/awq/utils/utils.py",
+    "sha256": "0b39fb0dde37d96516ee6962844ff1664872e5bff2cecb64ebefc93f4edb189a"
+  },
+  {
+    "path": "awq_reference/awq/utils/module.py",
+    "sha256": "f8dae2116ea106392852692e37eb04d0d815bfaff422600c966978a0e2f5a053"
+  },
+  {
+    "path": "awq_reference/awq/utils/lm_eval_adaptor.py",
+    "sha256": "d5fa84b36ee197053e52c5c4aabdec0e4ccfddeff3ca359f0ad783a085f5416c"
+  },
+  {
+    "path": "awq_reference/awq/kernels/setup.py",
+    "sha256": "dd20ed1389262f7dc39d6db98442e4f05e81b62d197a2550a585151309c05187"
+  },
+  {
+    "path": "awq_reference/awq/quantize/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "awq_reference/awq/quantize/auto_clip.py",
+    "sha256": "be01c005a49f217cebf427a712913ae2e491b1a9291d86626cffdd105a7a51c8"
+  },
+  {
+    "path": "awq_reference/awq/quantize/quantizer.py",
+    "sha256": "58ef4f06eef751e41aa14ff0768d00012239cc311a87e1a7da729c5773af8d39"
+  },
+  {
+    "path": "awq_reference/awq/quantize/qmodule.py",
+    "sha256": "f536e9b87f62e1443dbd5a68d4d3f0b4cb0308d501f7971adb6a111c7e7fb7b5"
+  },
+  {
+    "path": "awq_reference/awq/quantize/auto_scale.py",
+    "sha256": "4d19e26c91aab654ad3eb1ef077a52e038a91b72a8ab6c50906638d1cfbab0cb"
+  },
+  {
+    "path": "awq_reference/awq/quantize/pre_quant.py",
+    "sha256": "58b275802224515c5fdf63dc7f615a976243e795d1ccd1167fef90a9b7ecaa93"
+  },
+  {
+    "path": "awq_reference/awq/quantize/.ipynb_checkpoints/quantizer-checkpoint.py",
+    "sha256": "51f3fdcaf92579a57f8e986224deba7a22d2328670cea342001156ed60c41e2f"
+  },
+  {
+    "path": "awq_reference/awq/kernels/csrc/attention/setup.py",
+    "sha256": "cc543109f280538f8aa2287c6b7b0883abac29362debb24ca8e4a9ca4a61359a"
+  },
+  {
+    "path": "reproduction/tests/test_paper_alignment.py",
+    "sha256": "d5abbd7cfcf5109d069bcd49e04b1a7feb6fce7000e6150f86d6c3d78500b773"
+  },
+  {
+    "path": "reproduction/scripts/collect_fisher.py",
+    "sha256": "dfbfa79188dde10d6d49b6dd0668d06cf1b334eafa48eb3d27a4a1515cf4fe0b"
+  },
+  {
+    "path": "reproduction/scripts/prepare_sources.py",
+    "sha256": "1610dcb0e31c990dd31aeb83538312c6137442e1743d12dd820990e21b9313b2"
+  },
+  {
+    "path": "reproduction/scripts/_bootstrap.py",
+    "sha256": "83141de8d4ade8197371b544e9eafe2910ec306176d7d383d2c3aff043374b73"
+  },
+  {
+    "path": "reproduction/scripts/export_gptq_pt.py",
+    "sha256": "97b4f2338879c06f2102df774d83ed9415ac97d6a9a8a08b80524d66c9bc63b7"
+  },
+  {
+    "path": "reproduction/scripts/generate_baselines.py",
+    "sha256": "3bd4fd54c1e6f57157eb0fbb12ff5463ba1b21b90a9c13bf8df4dafb94f0475c"
+  },
+  {
+    "path": "reproduction/scripts/prepare_tokens.py",
+    "sha256": "f8e03b266bb8e6e2debf636fd2c1bb383a45bad6653eb40956d05bb1da83525d"
+  },
+  {
+    "path": "reproduction/scripts/evaluate_ppl.py",
+    "sha256": "b2924e6f2af93a764745a4ae09103054f694cc908dfe8528647e6eb55b983528"
+  },
+  {
+    "path": "reproduction/scripts/run_quantization.py",
+    "sha256": "616e2f44de91f43faa6f28b899eced41acc7f402b6c938736d6426bed2f6ab43"
+  },
+  {
+    "path": "reproduction/src/egquant/common.py",
+    "sha256": "a0f6253e562d5ccd0192b9e9adaf647bac38d469f735b8d47ff831f4760e784f"
+  },
+  {
+    "path": "reproduction/src/egquant/reconstruction.py",
+    "sha256": "d9976ec38b425400b748ca06ea40230b84d3a7d96f8d01ecb4396cec0661255a"
+  },
+  {
+    "path": "reproduction/src/egquant/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "reproduction/src/egquant/evaluation.py",
+    "sha256": "3809303ac96c2fb8651a3baef965ad82109d78c419d5b01209b640b8c8215705"
+  },
+  {
+    "path": "reproduction/src/egquant/baselines.py",
+    "sha256": "fde8c3f552a23210305867f220a39da83f43a8b338b69bd6904718c913efb5e9"
+  },
+  {
+    "path": "reproduction/src/egquant/conversion.py",
+    "sha256": "3bc16c20c7bc9b9085ff9ff41f9d7cca10fcf8d45bbe01152772678ab28e30c7"
+  },
+  {
+    "path": "reproduction/src/egquant/_third_party.py",
+    "sha256": "ad7ad2902b23f6729233b59051a80fbd27fdb2a0dcc87a8de71feeb5121f5a29"
+  },
+  {
+    "path": "reproduction/src/egquant/vendor/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "reproduction/src/egquant/vendor/gptq.py",
+    "sha256": "ccf839d65b60367fcf48e528be4119a5824713c8c8b5c02763f6216741c86317"
+  },
+  {
+    "path": "reproduction/src/egquant/vendor/awq_scale.py",
+    "sha256": "ca37d135f11646da2d238d04971031301fa3305e08edfd66457ff7cfd3f75154"
+  },
+  {
+    "path": "reproduction/src/egquant/vendor/awq_support.py",
+    "sha256": "9abcce14b176f347a7648f6ec02aa0552a1ce389cb63dfa7fefb31d51f1e94be"
+  },
+  {
+    "path": "reproduction/src/egquant/vendor/quant.py",
+    "sha256": "e204af132ffed07943f6742c9e6fe6a598ce8ffdac39378831ae38df8fd7cf84"
+  },
+  {
+    "path": "reproduction/src/egquant/kernels/conversion4.py",
+    "sha256": "e5ef2c7628ca387c48b17748cadd8a5e31b012332ce0de00983c16c2ffeaf693"
+  },
+  {
+    "path": "reproduction/src/egquant/kernels/__init__.py",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "reproduction/src/egquant/kernels/composition3.py",
+    "sha256": "7079b72dd07beca62e94d35438572e3f45accfcde3590cceaa66ecae6437e6f9"
+  },
+  {
+    "path": "reproduction/src/egquant/kernels/kmeans.py",
+    "sha256": "3e0bc0ad679489e9c1a50d1aba033fb8b45be7843c9e0a0ddddb55c3471cf630"
+  },
+  {
+    "path": "reproduction/src/egquant/kernels/conversion3.py",
+    "sha256": "9f7eb55ab12f6c904205583576e7f29c16c602afe6fd91f60bbf67f93ff713f4"
+  },
+  {
+    "path": "reproduction/src/egquant/kernels/composition4.py",
+    "sha256": "b0f4de5e827a868e1974cbc377320288b0a47a6d78fdb46f1c05d320fdd30b9d"
+  }
+]
